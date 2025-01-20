@@ -1,7 +1,7 @@
 ---
 title: CSS
 createTime: 2025/01/20 11:24:06
-permalink: /htmlcss/h4m1m712/
+permalink: /exam/css/
 ---
 ### 盒模型
 盒模型把页面元素从内到外分四层：内容(content)、内边距(padding)、边框(border)和外边距(margin)。有两种计算方式：**标准盒模型是宽度只包含内容区；IE盒模型的宽度包含内容、内边距和边框**。现在一般用**box-sizing: border-box**来使用IE盒模型，这样更好控制布局。

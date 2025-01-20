@@ -7,10 +7,10 @@ const demoNote = defineNoteConfig({
 })
 
 const htmlcssNote = defineNoteConfig({
-  dir: 'htmlcss',
-  link: '/htmlcss',
+  dir: 'exam',
+  link: '/exam',
   sidebar: 'auto',
-})
+});
 
 export const notes = defineNotesConfig({
   dir: 'notes',

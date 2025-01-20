@@ -1,7 +1,0 @@
----
-title: bar
-createTime: 2025/01/17 19:18:00
-permalink: /demo/kibo3nk9/
----
-
-[foo](./foo.md)

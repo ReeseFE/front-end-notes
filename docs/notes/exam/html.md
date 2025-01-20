@@ -1,7 +1,7 @@
 ---
 title: HTML
 createTime: 2025/01/17 19:18:00
-permalink: /htmlcss/html/
+permalink: /exam/html/
 ---
 
 ### 如何理解HTML语义化？
