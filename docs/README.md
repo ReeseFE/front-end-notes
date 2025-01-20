@@ -9,7 +9,7 @@ config:
     hero:
       name: Theme Plume
       tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      text: 不可以一时之得意，而自夸其能；亦不可以一时之失意，而自坠其志。
       actions:
         -
           theme: brand
