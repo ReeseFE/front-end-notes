@@ -10,7 +10,7 @@ export const navbar = defineNavbarConfig([
     link: '/notes/exam/README.md',
   },
   {
-    text: '前端解决方案',
+    text: '前端实战经验',
     link: '/notes/practice/README.md',
   },
 ]);

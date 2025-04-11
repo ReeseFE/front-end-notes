@@ -5,8 +5,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'Reese Blog',
-  description: '',
+  title: '前端笔记本',
+  description: '记录前端开发过程中的点点滴滴',
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
