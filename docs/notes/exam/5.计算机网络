@@ -1,0 +1,17 @@
+在 URL 中，// 前缀与添加或不添加前缀的区别在于协议相对路径和绝对路径：
+//admin.union.jd.com（带双斜杠）是协议相对 URL：
+它会继承当前页面的协议（http: 或 https:）
+如果当前页面是 https，则最终请求为 https://admin.union.jd.com
+如果当前页面是 http，则最终请求为 http://admin.union.jd.com
+这种写法的优点是自动适应当前页面的协议，避免混合内容警告
+admin.union.jd.com（不带双斜杠）会被解析为相对路径：
+它会被解释为相对于当前页面路径的子路径
+例如，如果你的应用运行在 https://example.com/app/，这个 URL 会被解析为 https://example.com/app/admin.union.jd.com
+这显然不是你想要的结果
+/admin.union.jd.com（单斜杠）会被解析为相对于当前域的根路径：
+如果你的应用运行在 https://example.com/app/，这个 URL 会被解析为 https://example.com/admin.union.jd.com
+这也不是正确的 API 服务器地址
+所以使用 //admin.union.jd.com 这种协议相对 URL 是最佳实践，因为它：
+自动适应 HTTP 和 HTTPS
+确保请求发送到正确的域名
+避免了混合内容安全警告
